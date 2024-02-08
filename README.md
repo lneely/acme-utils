@@ -25,6 +25,14 @@ ln -s $HOME/src/github.com/lneely/acme/lib $HOME/lib
 **Method 2**. Copy the files and directories from this repository to
 $HOME. Updates are manual.
 
+## Usage
+
+`rc` supports executing binaries in `bin/` subdirectories using the
+format `subdir/cmd`. For example: to find a function definition from
+inside a golang repository, the command from inside of acme is
+`go/fndef`. To increase or decrease the indentation of a selection,
+use `a/i+` and `a/i-` respectively.
+
 ## Thanks
 
 - [@mkmik](https://github.com/mkmik) for
