@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ! pgrep -x plumber >/dev/null; then
+	plumber
+fi
+
+if [ -f acme.dump ]; then
+	9 acme -f /mnt/font/GoMono/18a/font -F /mnt/font/GoMono/18a/font -a -l acme.dump $@
+else
+	9 acme -f /mnt/font/GoMono/18a/font -F /mnt/font/GoMono/18a/font -a $@
+fi
