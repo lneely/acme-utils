@@ -37,7 +37,7 @@ pipe the selection through `a/i+` and `a/i-` respectively.
 
 ## Thanks
 
-- [@9fans](https://github.com/9fans) and [@rsc](https://github.com/rsc) for [plan9port](https://github.com/9fans/plan9port)
+- [@9fans](https://github.com/9fans) and [@rsc](https://github.com/rsc) for https://github.com/9fans/plan9port
 - [@mkmik](https://github.com/mkmik) for
 https://github.com/mkmik/awesome-acme
 - [@sminez](https://github.com/sminez) for
