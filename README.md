@@ -10,7 +10,7 @@ useful for my daily workflow in acme.
 
 ## Setup
 
-**Method 1**. Create symlinks in $HOME/bin pointing to this
+**Method 1**. Create symlinks in $HOME pointing to this
 repository. Pull updates automatically using `git pull` from within
 the repository. For example:
 
