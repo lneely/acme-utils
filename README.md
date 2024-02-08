@@ -10,7 +10,7 @@ useful for my daily workflow in acme.
 
 # Thanks
 
-- [@mkmik] for https://github.com/mkmik/awesome-acme
-- [@sminez] for https://github.com/sminez/acme-corp
-- [@mpl] for https://github.com/mpl/xplor
+- [@mkmik](https://github.com/mkmik) for https://github.com/mkmik/awesome-acme
+- [@sminez](https://github.com/sminez) for https://github.com/sminez/acme-corp
+- [@mpl](https://github.com/mpl) for https://github.com/mpl/xplor
 
