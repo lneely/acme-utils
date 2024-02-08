@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# find go function references in a git repo
+rg -Hn "$1\((.*,)* *(.*)\)" $(git rev-parse --show-toplevel) | grep -v 'func '
