@@ -2,6 +2,8 @@
 # indent the current line by $1 spaces. If no argument is
 # given then the indentation defaults to 2.
 
+# this is a lightly modified version of 'a+' from https://github.com/sminez/acme-corp
+
 INDENT="	"
 if [[ -n "$1" ]]; then
   INDENT="$(printf %$1s)"
