@@ -179,7 +179,7 @@ arg isdir /Users/lneely/src/$1/mobydick$2/src
 data set /Users/lneely/src/$1/mobydick$2/src
 plumb to edit
 plumb client $editor
-#plumb start rc -c 'cd '$wdir'; cd '/Users/lneely/src/$1/mobydick/$2/'; ls | plumb -i -d edit -a ''action=showdata filename=/Users/lneely/src/'$1'/mobydick/'$2'/'''
+
 
 # open go module src subdirectory
 # SPECIAL CASE: net.pascom/*/*
