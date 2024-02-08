@@ -1,7 +1,9 @@
 # acme
 
 This is a collection of configuration files and scripts that I find
-useful for my daily workflow in acme.
+useful for my daily workflow in acme
+([plan9port](https://github.com/9fans/plan9port) version, this is not
+tested in [edwood](https://github.com/rjkroege/edwood)).
 
 - **a/** contains commands for acme itself
 - **g/** contains commands for working with git
