@@ -31,13 +31,14 @@ $HOME. Updates are manual.
 
 `rc` supports executing commands in `bin/` subdirectories using the
 format `subdir/cmd`. For example: to find a function definition from
-inside a golang repository, the command from inside of acme is
+inside a golang repository, pipe the function name through
 `go/fndef`. To increase or decrease the indentation of a selection,
 pipe the selection through `a/i+` and `a/i-` respectively.
 
 ## Thanks
 
-- [@9fans](https://github.com/9fans) and [@rsc](https://github.com/rsc) for https://github.com/9fans/plan9port
+- [@9fans](https://github.com/9fans) and
+[@rsc](https://github.com/rsc) for https://github.com/9fans/plan9port
 - [@mkmik](https://github.com/mkmik) for
 https://github.com/mkmik/awesome-acme
 - [@sminez](https://github.com/sminez) for
