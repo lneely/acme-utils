@@ -27,7 +27,7 @@ $HOME. Updates are manual.
 
 ## Usage
 
-`rc` supports executing binaries in `bin/` subdirectories using the
+`rc` supports executing commands in `bin/` subdirectories using the
 format `subdir/cmd`. For example: to find a function definition from
 inside a golang repository, the command from inside of acme is
 `go/fndef`. To increase or decrease the indentation of a selection,
