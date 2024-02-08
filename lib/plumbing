@@ -174,8 +174,18 @@ plumb start web https://pascom.atlassian.net/browse/$data
 # open go module src directory
 # SPECIAL CASE: net.pascom/*
 type is text
-data matches '"(net\.pascom)((\/[a-zA-Z¡-￿0-9_\-.]+)*)"'
-arg isdir /Users/lneely/src/$1/mobydick/$2
+data matches '"(net\.pascom)(\/[a-zA-Z¡-￿0-9_\-.]+)"'
+arg isdir /Users/lneely/src/$1/mobydick$2/src
 data set /Users/lneely/src/$1/mobydick$2/src
+plumb to edit
+plumb client $editor
+#plumb start rc -c 'cd '$wdir'; cd '/Users/lneely/src/$1/mobydick/$2/'; ls | plumb -i -d edit -a ''action=showdata filename=/Users/lneely/src/'$1'/mobydick/'$2'/'''
+
+# open go module src subdirectory
+# SPECIAL CASE: net.pascom/*/*
+type is text
+data matches '"(net\.pascom)(\/[a-zA-Z¡-￿0-9_\-.]+)((\/[a-zA-Z¡-￿0-9_\-.]+)+)"'
+arg isdir /Users/lneely/src/$1/mobydick$2/src$3
+data set /Users/lneely/src/$1/mobydick$2/src$3
 plumb to edit
 plumb client $editor
