@@ -1,0 +1,23 @@
+#!/usr/local/plan9/bin/rc
+
+. 9.rc
+. $PLAN9/lib/acme.rc
+
+fn convert {
+	awk -F'=' '
+		$1 == "indent_style" {
+			print "Spaces", ($2 == "space") ? "on" : "off"
+		}
+		$1 == "tab_width" {
+			print "Tab", $2
+		}
+	'
+}
+
+event=$1
+target=$2
+
+switch($event$target) {
+case new/*
+	editorconfig $target | convert | acmeeval
+}
