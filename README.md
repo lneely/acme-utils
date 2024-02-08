@@ -31,7 +31,7 @@ $HOME. Updates are manual.
 
 `rc` supports executing commands in `bin/` subdirectories using the
 format `subdir/cmd`. For example: to find a function definition from
-inside a golang repository, pipe the function name through
+inside a golang repository, pass the function name as an argument to
 `go/fndef`. To increase or decrease the indentation of a selection,
 pipe the selection through `a/i+` and `a/i-` respectively.
 
