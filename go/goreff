@@ -1,4 +1,15 @@
 #!/bin/bash
 
 # find go function references in a git repo
+# requires:  ripgrep, git, grep
+#
+# shell usage:
+#	- goreff <func name>
+#
+# acme usage:
+#	- highlight a function name in go code
+#	- click and hold button 2 on 'goreff'
+#	- click button 1, then release both buttons
+#
+
 rg -Hn "$1\((.*,)* *(.*)\)" $(git rev-parse --show-toplevel) | grep -v 'func '
