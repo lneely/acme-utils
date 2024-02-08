@@ -1,9 +1,5 @@
 # acme
 
-acme utils (plan9 editor)
-
-## About
-
 This is a collection of configuration files and scripts that I find
 useful for my daily workflow in acme.
 
