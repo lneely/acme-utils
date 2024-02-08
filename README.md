@@ -33,7 +33,7 @@ $HOME. Updates are manual.
 format `subdir/cmd`. For example: to find a function definition from
 inside a golang repository, the command from inside of acme is
 `go/fndef`. To increase or decrease the indentation of a selection,
-use `a/i+` and `a/i-` respectively.
+pipe the selection through `a/i+` and `a/i-` respectively.
 
 ## Thanks
 
