@@ -23,7 +23,7 @@ ln -s $HOME/src/github.com/lneely/acme/lib $HOME/lib
 ```
 
 **Method 2**. Copy the files and directories from this repository to
-$HOME/bin. Updates are manual.
+$HOME. Updates are manual.
 
 ## Thanks
 
