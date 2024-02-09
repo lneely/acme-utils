@@ -12,4 +12,5 @@
 #	- click button 1, then release both buttons
 #
 
-rg -Hn "$1\((.*,)* *(.*)\)" $(git rev-parse --show-toplevel) | grep -v 'func '
+wd=$(git rev-parse --show-toplevel)
+rg -Hn "$1\((.*,)* *(.*)\)" $wd | grep -v 'func ' | plumb -i -d edit -a "action=showdata filename=$wd:go/fnref/$1"
