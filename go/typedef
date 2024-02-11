@@ -1,4 +1,4 @@
 #!/bin/bash
 
 wd=$(git rev-parse --show-toplevel)
-rg -Hn "type $1" $wd | plumb -i -d edit -a "action=showdata filename=$wd:go/typedef/$1"
+rg -Hn "type $1 " $wd | plumb -i -d edit -a "action=showdata filename=$wd:go/typedef/$1"
