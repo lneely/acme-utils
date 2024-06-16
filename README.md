@@ -1,4 +1,4 @@
-# acme
+# acme-utils
 
 This is a collection of configuration files and commands that I find
 useful for my daily workflow in acme
